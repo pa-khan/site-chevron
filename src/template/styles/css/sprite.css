@@ -1,0 +1,197 @@
+.icon-arrow-down-blue {
+  background-image: url(../../img/sprite.png);
+  background-position: -53px -27px;
+  width: 8px;
+  height: 8px; }
+
+.icon-arrow-down-gray {
+  background-image: url(../../img/sprite.png);
+  background-position: -53px -18px;
+  width: 9px;
+  height: 9px; }
+
+.icon-arrow-left-black {
+  background-image: url(../../img/sprite.png);
+  background-position: -82px -38px;
+  width: 14px;
+  height: 13px; }
+
+.icon-arrow-left-blue {
+  background-image: url(../../img/sprite.png);
+  background-position: -13px -72px;
+  width: 14px;
+  height: 13px; }
+
+.icon-arrow-right-black {
+  background-image: url(../../img/sprite.png);
+  background-position: -98px -72px;
+  width: 7px;
+  height: 10px; }
+
+.icon-arrow-right-blue-x-small {
+  background-image: url(../../img/sprite.png);
+  background-position: -25px -88px;
+  width: 5px;
+  height: 8px; }
+
+.icon-arrow-right-blue {
+  background-image: url(../../img/sprite.png);
+  background-position: -99px -18px;
+  width: 7px;
+  height: 11px; }
+
+.icon-arrow-right-gray {
+  background-image: url(../../img/sprite.png);
+  background-position: -102px -54px;
+  width: 4px;
+  height: 7px; }
+
+.icon-arrow-right-white-small {
+  background-image: url(../../img/sprite.png);
+  background-position: -19px -88px;
+  width: 6px;
+  height: 10px; }
+
+.icon-arrow-right-white-x-small {
+  background-image: url(../../img/sprite.png);
+  background-position: -99px -29px;
+  width: 5px;
+  height: 8px; }
+
+.icon-arrow-right-white {
+  background-image: url(../../img/sprite.png);
+  background-position: -96px -38px;
+  width: 8px;
+  height: 13px; }
+
+.icon-arrow-right-yellow {
+  background-image: url(../../img/sprite.png);
+  background-position: -12px -88px;
+  width: 7px;
+  height: 11px; }
+
+.icon-arrow-two-double {
+  background-image: url(../../img/sprite.png);
+  background-position: -41px -72px;
+  width: 15px;
+  height: 12px; }
+
+.icon-boat {
+  background-image: url(../../img/sprite.png);
+  background-position: -64px 0px;
+  width: 42px;
+  height: 18px; }
+
+.icon-bus {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -18px;
+  width: 53px;
+  height: 18px; }
+
+.icon-car {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -36px;
+  width: 50px;
+  height: 18px; }
+
+.icon-concrete-mixer {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -54px;
+  width: 36px;
+  height: 18px; }
+
+.icon-container {
+  background-image: url(../../img/sprite.png);
+  background-position: -64px -18px;
+  width: 35px;
+  height: 20px; }
+
+.icon-email {
+  background-image: url(../../img/sprite.png);
+  background-position: -56px -72px;
+  width: 14px;
+  height: 10px; }
+
+.icon-filter {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -88px;
+  width: 12px;
+  height: 11px; }
+
+.icon-link {
+  background-image: url(../../img/sprite.png);
+  background-position: -27px -72px;
+  width: 14px;
+  height: 13px; }
+
+.icon-list {
+  background-image: url(../../img/sprite.png);
+  background-position: -64px -38px;
+  width: 18px;
+  height: 14px; }
+
+.icon-pagination-arrow-left-black {
+  background-image: url(../../img/sprite.png);
+  background-position: -70px -72px;
+  width: 7px;
+  height: 10px; }
+
+.icon-pagination-arrow-left-white {
+  background-image: url(../../img/sprite.png);
+  background-position: -77px -72px;
+  width: 7px;
+  height: 10px; }
+
+.icon-pagination-arrow-right-black {
+  background-image: url(../../img/sprite.png);
+  background-position: -84px -72px;
+  width: 7px;
+  height: 10px; }
+
+.icon-pagination-arrow-right-white {
+  background-image: url(../../img/sprite.png);
+  background-position: -91px -72px;
+  width: 7px;
+  height: 10px; }
+
+.icon-pdf-blue {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -72px;
+  width: 13px;
+  height: 16px; }
+
+.icon-pdf-red {
+  background-image: url(../../img/sprite.png);
+  background-position: -89px -54px;
+  width: 13px;
+  height: 16px; }
+
+.icon-raliway-carriage {
+  background-image: url(../../img/sprite.png);
+  background-position: -36px -54px;
+  width: 31px;
+  height: 18px; }
+
+.icon-track {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px 0px;
+  width: 64px;
+  height: 18px; }
+
+.icon-tractor {
+  background-image: url(../../img/sprite.png);
+  background-position: -67px -54px;
+  width: 22px;
+  height: 18px; }
+
+.icon-triangle-yellow {
+  background-image: url(../../img/sprite.png);
+  background-position: -50px -51px;
+  width: 5px;
+  height: 3px; }
+
+.icon-zoom {
+  background-image: url(../../img/sprite.png);
+  background-position: -50px -36px;
+  width: 14px;
+  height: 15px; }
