@@ -33,4 +33,46 @@ $(document).ready(function($) {
 		$('.product__amount li').removeClass('selected');
 		$(this).addClass('selected');
 	});
+
+	var navList = $('.nav__list'),
+			nav = $('.nav'),
+			navBtn = $('.header__btn');
+
+	navBtn.click(function(event) {
+		$(this).toggleClass('header__btn_toggle');
+		nav.toggleClass('nav_toggle');
+	});
+
+	$(window).on('load resize', function() {
+		var windowHeight = $(window).height(),
+				windowWidth = $(window).width();
+
+		if (windowWidth <= 795 ) {
+			
+		} else{
+			
+		}
+		
+	});
+
+
+	$('.nav__link_big').click(function(event) {
+		var windowWidth = $(window).width();
+		if (windowWidth <= 767) {
+			var subnav = $(this).siblings('.nav__subnav');
+			event.preventDefault();
+			subnav.slideToggle(300);
+
+			navList.height($(window).height());
+		} else{
+			subnav.removeAttr('style');
+		}
+		
+		
+	});
+
+	$('.search__btn_show').click(function(event) {
+		$('.search__input').css('transform', 'translateX(0%)');
+		$(this).hide();
+	});
 });

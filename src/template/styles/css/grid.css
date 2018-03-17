@@ -46,7 +46,7 @@
 .col-a-16 {
   width: 100%; }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 992px) {
   .col-b-1 {
     width: 6.25%; }
   .col-b-2 {
@@ -80,7 +80,7 @@
   .col-b-16 {
     width: 100%; } }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 767px) {
   .col-c-1 {
     width: 6.25%; }
   .col-c-2 {

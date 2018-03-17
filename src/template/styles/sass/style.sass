@@ -227,7 +227,8 @@ textarea
 		line-height: 16px
 		font-family: $font-family-2
 		
-		
+	.icon-chevron
+		display: none
 
 .nav
 	font-size: 0
@@ -286,7 +287,7 @@ textarea
 			height: 20px
 		ul
 			li
-				margin-bottom: 5px
+				margin-bottom: 8px
 				&:last-of-type
 					margin-bottom: 0
 	&__col
@@ -299,6 +300,7 @@ textarea
 
 		&:nth-of-type(3)
 			width: 29%
+			padding-right: 25px
 
 	&__sublist
 		li
@@ -313,24 +315,40 @@ textarea
 .search
 	max-width: 360px
 	width: 100%
-	border: 1px solid #e7e7e7
 	font-size: 0
 	&__input
-		padding: 10.5px 12px !important
+		padding: 9.5px 12px !important
 		width: calc(100% - 38px) !important
+		border: 1px solid #e7e7e7
+		border-right: none
+		&:focus
+			border-color: #989898 !important
+		&:focus + .search__btn
+			background-color: #282828
+			path
+				fill: #fff !important
 	&__btn
 		background-color: #e7e7e7
 		width: 38px
 		line-height: 38px
-	&__input, &__btn
+		&:hover
+			background-color: #282828
+			path
+				fill: #fff !important
+	&__input
 		display: inline-block !important
+	&__input, &__btn
+		display: inline-block
 		vertical-align: top
 	&__btn
 		.icon
 			width: 13px
 			position: relative
 			top: -2px
-		
+		&_show
+			display: none
+			z-index: -2
+			position: relative
 		
 		
 		
@@ -466,6 +484,7 @@ textarea
 		color: #acacac
 		margin-bottom: 45px
 		text-align: center
+		font-size: 18px
 		&:before, &:after
 			position: relative
 			top: -2px
@@ -612,6 +631,7 @@ textarea
 		width: calc(100% - 150px - 23px - 17px - 17px) !important
 		background: none !important
 		font-size: 20px !important
+		padding-right: 13px
 		&::placeholder
 			color: #adadad
 	&__btn
@@ -626,6 +646,9 @@ textarea
 			margin-left: 12px
 			position: relative
 			top: -1px
+		&:hover
+			background-color: #f7a600
+
 		
 
 .blocks
@@ -736,6 +759,8 @@ textarea
 		font-size: 12px
 		line-height: 31px
 		height: 31px
+		&_hidden
+			display: none
 	&__list
 		
 	&__col
@@ -843,15 +868,20 @@ textarea
 			margin-bottom: 12px
 		&-btns
 			li
+				margin-right: 7px
+				&.selected
+					a
+						background-color: #f7a600
+				&:last-of-type
+					margin-right: 0
+			a
+				display: block
 				font-size: 15px
 				padding: 4.5px 15px (4.5px + 2px)
 				background-color: #f0f0f0
-				margin-right: 7px
 				cursor: pointer
-				&:last-of-type
-					margin-right: 0
-				&.selected
-					background-color: #f7a600
+				
+				
 		&-line
 			&:nth-of-type(1)
 				margin-bottom: 22px
@@ -1055,6 +1085,7 @@ textarea
 		padding-left: 16px
 		font-weight: 450
 		font-family: $font-family-1
+		border-radius: 0
 	&__trigger
 		border-left: none
 		height: 40px
@@ -1941,4 +1972,73 @@ path
 .footer
 	background-color: #f3f3f3
 	padding-top: 50px
-	padding-bottom: 30px
+	padding-bottom: 20px
+	&__col
+		&_pl
+			padding-left: 45px
+		
+	&__logo
+		margin-bottom: 20px
+		
+	&__links
+		margin-bottom: 32px
+		li
+			display: block
+			font-size: 12px
+			margin-bottom: 5px
+		a
+			font-family: $font-family-2
+			&:hover
+				border-color: $color-1
+
+	&__copy
+		font-size: 11px
+		line-height: 14px
+		color: #393939
+		font-family: $font-family-2
+		margin-bottom: 18px
+
+	&__dev
+		font-size: 11px
+		font-family: $font-family-2
+		a
+			&:hover
+				span
+					color: #F7A600
+					border-color: #F7A600
+		span
+			transition: .3s
+			border-bottom: 1px solid transparent
+
+	&__title
+		margin-bottom: 22px
+		margin-top: -3px
+
+	&__nav
+		li
+			display: block
+			font-size: 12px
+			font-weight: 450
+			margin-bottom: 9px
+		a
+			&:hover
+				color: #F7A600
+		&_mt
+			margin-top: 40px
+
+		&_bold
+			margin-top: 28px
+			li
+				display: block
+				text-transform: uppercase
+				margin-bottom: 7px
+				font-weight: 600
+			a
+				&:hover
+					color: #F7A600
+		
+		
+		
+		
+
+		
