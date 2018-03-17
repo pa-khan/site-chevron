@@ -480,6 +480,9 @@ textarea
 	background-color: #f4f4f4
 	padding-top: 40px
 	padding-bottom: 44px
+	&_no-main
+		margin-top: -40px
+		margin-bottom: 15px
 	&__title
 		color: #acacac
 		margin-bottom: 45px
@@ -773,6 +776,12 @@ textarea
 		
 	&__img
 		margin-bottom: 14px
+		overflow: hidden
+		height: 137px
+		background-color: #e7e7e7
+		img
+			margin-left: auto
+			margin-right: auto
 
 	&__subtitle
 		font-size: 14px
@@ -791,6 +800,9 @@ textarea
 		width: 82px
 		text-align: center
 		color: #262626
+
+	&__pagination
+		padding-top: 0 !important
 		
 		
 		
@@ -801,7 +813,7 @@ textarea
 
 
 .breadcrumbs
-	margin-bottom: 10px
+	margin-bottom: 15px
 	li
 		font-size: 11px
 		font-family: $font-family-2
@@ -1197,7 +1209,7 @@ textarea
 			padding: 7px 19px
 			&:hover
 				color: #fff
-				background-color: #1e1e1e
+				background-color: #008fd4
 
 		
 		
@@ -1349,6 +1361,8 @@ path
 .production-nav
 	margin-right: 25px
 	margin-bottom: 33px
+	&_mod
+		margin-right: -15px
 	&__item
 		position: relative
 		display: block
@@ -1416,9 +1430,13 @@ path
 		&-img
 			img
 				max-width: 100%
+
 	&__sort
 		padding-bottom: 20px
 		border-bottom: 1px solid #dedede
+		&_mod
+			padding-top: 20px
+			border-top: 1px solid #dedede
 		&-title
 			font-size: 16px
 			font-weight: 600
@@ -1749,6 +1767,7 @@ path
 		margin-right: 11px
 
 	span
+		font-size: 15px
 		display: inline-block
 		vertical-align: middle
 		border-bottom: 1px solid transparent
@@ -1820,7 +1839,7 @@ path
 		margin-bottom: 10px
 		a
 			&:hover
-				border-color: $color-1
+				color: #0070be
 
 	&__text
 		font-size: 13px

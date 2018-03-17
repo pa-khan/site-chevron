@@ -47,10 +47,8 @@ $(document).ready(function($) {
 		var windowHeight = $(window).height(),
 				windowWidth = $(window).width();
 
-		if (windowWidth <= 795 ) {
-			
-		} else{
-			
+		if (windowWidth > 795 ) {
+			subnav.removeAttr('style');
 		}
 		
 	});
@@ -64,9 +62,7 @@ $(document).ready(function($) {
 			subnav.slideToggle(300);
 
 			navList.height($(window).height());
-		} else{
-			subnav.removeAttr('style');
-		}
+		} 
 		
 		
 	});
